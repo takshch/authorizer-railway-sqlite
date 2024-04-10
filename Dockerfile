@@ -1,3 +1,3 @@
 FROM lakhansamani/authorizer:1.4.0
 
-CMD ./build/server --database_type=sqlite
+CMD ./build/server --database_type=sqlite --database_url=data.db
